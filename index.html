@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+         <!-- heading -->
+         <div class="title-heading">
+            Text formating and box design
+         </div>
+         <!-- left column -->
+         <div class="col-1">
+            <div class="heading">Text formating</div>
+            <hr>
+            <!-- text formatting -->
+            <div class="text-format">
+                <button onclick="document.getElementById('demo').style.textTransform='uppercase'" class="item">Capital</button>
+                <button onclick="document.getElementById('demo').style.textTransform='lowercase'" class="item">Small</button>
+                <button onclick="document.getElementById('demo').style.textTransform='capitalize'" class="item">Capitalize</button>
+                <button onclick="document.getElementById('demo').style.textShadow='2px 2px 2px black'" class="item">Text Shadow</button>
+                <button onclick="document.getElementById('demo').style.fontStyle='Italic'" class="item">Italic</button>
+                <button onclick="document.getElementById('demo').style.fontWeight='600'" class="item">Bold</button>
+            </div>
+            <!-- text color -->
+            <div class="heading">Text color</div>
+            <hr>
+            <div class="text-color">
+                <button onclick="document.getElementById('color-change').style.color='red'" class="item1"></button>
+                <button onclick="document.getElementById('color-change').style.color='green'" class="item2"></button>
+                <button onclick="document.getElementById('color-change').style.color='blue'" class="item3"></button>
+                <button onclick="document.getElementById('color-change').style.color='brown'" class="item4"></button>
+                <button onclick="document.getElementById('color-change').style.color='black'" class="item5"></button>
+                <button onclick="document.getElementById('color-change').style.color='orange'" class="item6"></button>
+                <button onclick="document.getElementById('color-change').style.color='pink'" class="item7"></button>
+                <button onclick="document.getElementById('color-change').style.color='grey'" class="item8"></button>
+                <button onclick="document.getElementById('color-change').style.color='violet'" class="item9"></button>
+                <button onclick="document.getElementById('color-change').style.color='teal'" class="item10"></button>
+                <button onclick="document.getElementById('color-change').style.color='coral'" class="item11"></button>
+                <button onclick="document.getElementById('color-change').style.color='gold'" class="item12"></button>
+            </div>
+         </div>
+         <!-- center column -->
+         <div class="col-2">
+             <div id="demo" class="card"><span id="color-change">Hello World!</span></div>
+         </div>
+         <!-- right column -->
+         <div class="col-3">
+            <div class="heading">Box design</div>
+            <hr>
+            <div class="box-design">
+                <button onclick="document.getElementById('demo').style.borderRadius='50%'" class="item">Design-1</button>
+                <button onclick="document.getElementById('demo').style.borderRadius='0% 50% 0% 50%'" class="item">Design-2</button>
+                <button onclick="document.getElementById('demo').style.borderRadius='50% 0% 50% 0%'" class="item">Design-3</button>
+                <button onclick="document.getElementById('demo').style.borderRadius='50% 50% 0% 0%'" class="item">Design-4</button>
+                <button onclick="document.getElementById('demo').style.borderRadius='0% 0% 50% 50%'" class="item">Design-5</button>
+                <button onclick="document.getElementById('demo').style.borderRadius='0% 50% 50% 50%'" class="item">Design-6</button>
+            </div>
+            <div class="heading">Box Background</div>
+            <hr>
+            <div class="box-color">
+                <button onclick="document.getElementById('demo').style.backgroundColor='red'" class="item1"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='green'" class="item2"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='blue'" class="item3"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='brown'" class="item4"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='black'" class="item5"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='orange'" class="item6"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='pink'" class="item7"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='grey'" class="item8"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='violet'" class="item9"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='teal'" class="item10"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='coral'" class="item11"></button>
+                <button onclick="document.getElementById('demo').style.backgroundColor='gold'" class="item12"></button>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
